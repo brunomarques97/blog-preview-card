@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+}
+main{
+    font-family: Figtree;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffff00;
+    font-size: 16px;
+}
+.contanier{
+    border-radius: 20px;
+    border: solid #000000 1px;
+    box-shadow: 5px 5px ;
+    height: 40em;
+    width: 30em;
+    background-color: #ffffff;
+}
+.contanier section{
+    display: flex;
+    margin: 2rem ;
+    flex-direction: column;
+    align-items: stretch;
+}
+.banner{
+    border-radius: 20px;
+}
+section div{
+    margin-top: 2em;
+    line-height: 2em;
+}
+h3{
+    background-color: #ffff00;
+    border-radius: 10px;
+    width: 6em;
+    text-align: center;
+}
+.autor{
+    display: flex;
+    align-items: center;
+}
+.autor p{
+    margin-left: 1em;
+}
+@media only screen and (max-width: 600px) {
+    .contanier {
+        width: 90%;
+        height: 75% ;
+    }
+    section div{
+        margin-top: 1em;
+        line-height: 2em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h3 {
+        font-size: 14px;
+    }
+}
